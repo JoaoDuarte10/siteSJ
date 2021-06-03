@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mercados São Jerônimo</title>
+    <!-- Web site by Joao Duarte e Ismael Borges 2021 -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_package/site.webmanifest">
+    <link rel="mask-icon" href="/favicon_package/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sail&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <div class="containerMenu">
+            <img class="logo" src="./img/icon/logo.png" alt="" />
+        </div>
+    </header>
+    <div class="menuListaContainer">
+        <ul class="menuLista">
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./index.html">Contatos</a></li>
+            <li><a href="./localizacao.html">Localização</a></li>
+        </ul>
+        <div class="menuIconMobile">
+            <div class="icon1"></div>
+            <div class="icon2"></div>
+            <div class="icon3"></div>
+        </div>
+        <div class="menuMobContainerMain">
+            <div class="MenuMobLista">
+                <ul>
+                    <li><a href="./index.html"><button>Início</button></a></li>
+                    <li><a href="./index.html"><button>Contatos</button></a></li>
+                    <li><a href="./localizacao.html"><button>Localização</button></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <section id='receitas'>
+        <div class="mainContainer">
+            <h1 class="tituloReceitas">Receitas</h1>
+
+            <div class="containerReceitas">
+
+                <div class="boxReceita">
+                    <!-- receita 1-->
+                    <div class="boxImg  receita1">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Macarrão Alho & Óleo</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal1)">Ver Receita</button>
+                </div>
+                <div id="receitaModal1" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal1)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        200g de massa;<br>
+                        2L de água ou caldo de legumes;<br>
+                        1 colher de sobremesa rasa de sal;<br>
+                        1/2 xícara de óleo de girassol ou canola, ou azeite;<br>
+                        6 dentes de alho bem picados;<br>
+                        1/2 xícara de cebolinha ou salsinha picadas;
+                        </p><br>
+                        <p>
+                        <h2>Modo de preparo</h2><br>
+                        Leve a água para ferver, quando começar a ferver coloque o sal e a massa.<br>
+                        Verifique na embalagem o tempo de cozimento para a massa escolhida, pois cada massa tem um tempo de cozimento.
+                        E sempre use 1L de água para cada 100g de massa, isto fará com que ela cozinhe por igual e não grude.<br>
+                        Aqueça o óleo em uma frigideira grande. Frite o alho em fogo baixo até que comece a dourar.<br>
+                        Junte a massa já cozida e escorrida, misture bem. Coloque a cebolinha e está pronto.
+                        </p>
+                    </div>
+                </div>
+                <!--modalReceita-->
+                <div class="boxReceita">
+                    <!-- receita 2-->
+                    <div class="boxImg receita2">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Caneloni de linguiça e queijo</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal2)">Ver Receita</button>
+                </div>
+                <div id="receitaModal2" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal2)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        20 folhas de massa de lasanha cozidas<br>
+                        300 gramas de ricota amassada<br>
+                        ½ xícara (chá) de cheiro verde picado<br>
+                        1 kg de linguiça fresca sem pele picada<br>
+                        1 cebola média picada<br>
+                        1 colher (sopa) de alho, cebola e salsa desidratados<br>
+                        1 tablete de caldo de carne<br>
+                        1 xícara (chá) de água<br>
+                        1 xícara (chá) de mussarela ralada<br>
+                        2 colheres (sopa) de óleo<br>
+                        2 latas de tomates pelados<br>
+                        2 dentes de alho picados<br>
+                        2 colheres (sopa) de azeite<br>
+                        Sal e pimenta do reino a gosto<br>
+                        Orégano a gosto<br>
+                        Queijo parmesão ralado a gosto<br>
+                        </p><br>
+                        <p>
+                        <h2>Modo de preparo</h2><br>
+                        Aqueça o óleo e doure a linguiça,mexendo de vez enquando.Retire do fogo e escorra a gordura toda,acrescente a ricota, o cheiro verde, a mussarela e os temperos.Misture bem e divida o recheio entre as folhas da massa.Enrole como um rocambole e reserve.Coloque os canelonis recheados em um refratário e reserve. <br>
+                        <br>
+                        <h1>Modo de Preparo Molho</h1><br>
+
+                        Pré aqueça o forno em temperatura média, aqueça o azeite e doure levemente a cebola e o alho,acrescente os tomates picados com o líquido das latas, a água, o caldo de carne e os temperos.Tampe a panela e deixe ferver por 10 minutos ou até obter um molho denso, mexendo de vez em quando.Espalhe o molho sobre os canelonis, polvilhe com o queijo parmesão e orégano.Leve ao forno por 20 minutos ou até o queijo derreter e sirva quente.
+                        </p><br>
+                    </div>
+                </div>
+                <!--modalReceita-->
+                <div class="boxReceita">
+                    <!-- receita 3-->
+                    <div class="boxImg receita3">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Bolo de milho de latinha</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal3)">Ver Receita</button>
+                </div>
+                <div id="receitaModal3" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal3)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        (Use a latinha do milho para medir)<br>
+                        1 lata de milho sem água<br>
+                        1 lata de leite integral<br>
+                        3 ovos<br>
+                        1/2 lata de óleo<br>
+                        1 lata de açúcar<br>
+                        1 lata de fubá (fino ou mimoso)<br>
+                        1 colher de sopa de fermento químico<br>
+                        </p><br>
+                        <p>
+                        <h2>Modo de preparo</h2><br>
+                        Bate tudo no liquidificador deixando o fermento por último (bata pouco só pra misturar), coloque em forma de 21 a 24cm de diâmetro e leve para assar em 180ºC em forno preaquecido por aproximadamente 50 min.
+                        </p>
+                    </div>
+                </div>
+                <!--modalReceita-->
+                <div class="boxReceita">
+                    <!-- receita 4-->
+                    <div class="boxImg receita4">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Bolo de laranja fofinho</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal4)">Ver Receita</button>
+                </div>
+                <div id="receitaModal4" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal4)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        1 laranja média com a casca<br>
+                        3 ovos<br>
+                        1 xícara (chá) de óleo<br>
+                        1 xícara (chá) de açúcar<br>
+                        1 e ½ xícara de (Chá) de farinha de trigo<br>
+                        ½ xícara de (chá) de Amido de Milho <br>
+                        1 colher de sopa de fermento químico em pó<br>
+                        <p><br>
+                        <h2>Modo de preparo</h2><br>
+                        Preaqueça o forno em temperatura média (180° C). Unte e enfarinhe uma fôrma redonda de furo central média (20 cm diâmetro). Corte a laranja em 4 pedaços e retire as sementes que estiverem aparentes. No copo do liquidificador, coloque a laranja, os ovos, o óleo, o açúcar, e bata até que fique homogêneo. Em uma tigela, peneire a farinha de trigo, o amido de milho e o fermento, e adicione, aos poucos, a mistura do liquidificador, mexendo até obter uma massa cremosa. Disponha a massa na fôrma reservada e leve ao forno por 35 minutos, ou até que um palito saia limpo, depois de espetado na massa. Retire do forno, espere amornar e desenforme. Sirva a seguir.
+                        </p>
+                    </div>
+                </div>
+                <!--modalReceita-->
+                <div class="boxReceita">
+                    <!-- receita 5-->
+                    <div class="boxImg receita5">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Chocolate quente cremoso</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal5)">Ver Receita</button>
+                </div>
+                <div id="receitaModal5" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal5)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        1 colher de sopa de amido de milho<br>
+                        1 xícara de creme de leite<br>
+                        2 colheres de sopa de açúcar<br>
+                        3 colheres de sopa de Chocolate em pó<br>
+                        3 xícaras de leite<br>
+                        Canela a gosto</p><br>
+                        <p>
+                        <h2>Modo de preparo</h2><br>
+                        Em uma leiteira grande, misture uma xícara de leite com o amido de milho e mexa até dissolver. Em seguida, acrescente o restante do leite junto com o açúcar, o chocolate em pó e a canela a gosto. Leve ao fogo médio mexendo sem parar até engrossar um pouco. Misture o creme de leite, mexa mais um pouco e sirva.
+                        </p>
+                    </div>
+                </div>
+                <!--modalReceita-->
+                <div class="boxReceita">
+                    <!-- receita 6-->
+                    <div class="boxImg receita6">
+                        <div class="titulosReceitasBg">
+                            <h1 class="titulosBoxReceita">Sanduíche de forno cremoso</h1>
+                        </div>
+                    </div>
+                    <button onclick="ativarModal(modal6)">Ver Receita</button>
+                </div>
+                <div id="receitaModal6" class="modalReceita">
+                    <div class="contentReceita">
+                        <span class="close" onclick="fecharModal(modal6)">&times;</span>
+                        <p>
+                        <h2>Ingredientes</h2><br>
+                        200g de presunto<br>
+                        200g de mussarela<br>
+                        1 pão de forma<br>
+                        1 lata de molho de tomate<br>
+                        2 colheres de sopa de maionese<br>
+                        2 copos de leite<br>
+                        2 colheres de sopa cheias de creme de cebola<br>
+                        Orégano a gosto<br>
+                        </p><br>
+                        <p>
+                        <h2>Modo de preparo</h2><br>
+                        Em uma forma retangular disponha uma camada de fatias de pão de forma. Cubra com uma camada fina de maionese. Espalhe a mussarela e o presunto. Coloque o molho de tomate e salpique com orégano. Coloque mais uma camada de pão de forma. Prepare um mingau ralo com o leite e o creme de cebola. Jogue por cima e decore a seu gosto (parmesão, azeitonas, palmito) e por fim leve ao forno até dourar.
+                        </p>
+                    </div>
+                </div>
+                <!--modalReceita-->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <p>SuperMercados São Jerônimo 2021 | By <span>D&B Softwares</span></p>
+        </div>
+        <div class="footerBottom">
+            <p>CNPJ: 02.492.634/0001-34</p>
+        </div>
+
+    </footer>
+    <script type="module" src="js/mobileBotao.js"></script>
+    <script type="module" src="js/menuMobile.js"></script>
+    <script src="js/modalReceitas.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,180 @@
+@media (max-width: 1060px) {
+  /* wbs by JD&Ibb*/
+  .titulo {
+    font-size: 1.7em;
+
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .acssRapidoBox {
+    width: 120px;
+    margin: 10px;
+  }
+  .acssRapidoBox h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .acssRapidoBox img {
+    width: 50px;
+    margin: 15px auto;
+  }
+  .sobreTxt {
+    margin: 15px 0 15px;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+  .containerSobre::before {
+    margin: 40px auto 0px auto;
+  }
+  .containerSobre::after {
+    margin: 60px auto 0px auto;
+  }
+}
+@media (max-width: 900px) {
+  .infos {
+    max-width: 500px;
+    margin: 60px auto 50px auto;
+  }
+  .Redes {
+    width: 400px;
+    margin-top: 20px;
+  }
+  .Redes ul {
+    padding-top: 20px;
+  }
+}
+@media (max-width: 870px) {
+  .acssRapidoBoxes {
+    width: 65%;
+  }
+}
+@media (max-width: 760px) {
+  .menuIconMobile {
+    display: inline-block;
+  }
+  .menuLista {
+    display: none;
+  }
+  .whatsCard {
+    width: 130px;
+    height: 130px;
+    img {
+      margin-top: 10px;
+      width: 70px;
+    }
+    h1 {
+      font-size: 13px;
+    }
+  }
+  .closeWhats {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (max-width: 733px) {
+  .acssRapidoBoxes {
+    width: 70%;
+  }
+}
+@media (max-width: 677px) {
+  .acssRapidoBoxes {
+    display: flex;
+    width: 90%;
+  }
+}
+@media (max-width: 620px) {
+  .mySlides {
+    height: 350px;
+    img {
+      height: 350px;
+    }
+  }
+}
+@media (max-width: 532px) {
+  .logo {
+    width: 90px;
+    padding: 10px;
+    margin-left: 5px;
+  }
+  /* titulos*/
+  .titulo {
+    font-size: 1.4em;
+  }
+  .tituloLoja {
+    font-size: 1.2em;
+  }
+  .tituloLocalizacao {
+    font-size: 1.4em;
+    margin: 30px 0 0px 0;
+  }
+  .tituloLocalizacao::after {
+    margin: 30px auto;
+  }
+  .tituloCidades.tituloPassos,
+  .tituloCidades.tituloAlpinopolis {
+    font-size: 1.4em;
+  }
+  .tituloFuncionamento,
+  .tituloRedes {
+    font-size: 1.2em;
+  }
+  .tituloCidades {
+    font-size: 1em;
+  }
+  .tituloReceitas {
+    font-size: 1.4em;
+  }
+  .tituloReceitas::after {
+    margin: 30px auto;
+  }
+
+  /* Slide */
+  .containerSlides {
+    height: 250px;
+  }
+  .mySlides {
+    height: 250px;
+    img {
+      height: 250px;
+    }
+  }
+  /* Acesso rapido */
+  .acssRapidoBoxes {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .acssRapidoBox {
+    width: 280px;
+  }
+  /* Infos wbs by JD&Ibb*/
+  .infos {
+    margin: 40px auto 50px auto;
+  }
+  /*Contatos*/
+  .containerContatos {
+    margin: 20px 0 50px 0;
+  }
+
+  /* footer */
+  .footer p {
+    padding-top: 30px;
+    font-size: 1em;
+  }
+
+  //Localização
+  /*Boxes*/
+  .containerBoxes {
+    margin: 10px 0 20px 0px;
+  }
+  .boxesAlpinopolis {
+    margin: 0px 0 50px;
+  }
+  .footer {
+    height: 80px;
+    font-size: 14px;
+    span {
+      font-size: 14px;
+    }
+  }
+}
